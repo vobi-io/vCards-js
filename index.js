@@ -105,7 +105,13 @@ var vCard = (function () {
             'facebook': '',
             'linkedIn': '',
             'twitter': '',
-            'flickr': ''
+            'flickr': '',
+            'link1': '',
+            'link2': '',
+            'upwork': '',
+            'github': '',
+            'skype': '',
+            'medium': '',
         };
     }
 
@@ -161,6 +167,12 @@ var vCard = (function () {
          * @type {String}
          */
         formattedName: '',
+
+        /**
+         * The name and optionally the unit(s) of the jobPosition associated with the vCard object
+         * @type {String}
+         */
+        jobPosition: '',
 
         /**
          * Gender.
